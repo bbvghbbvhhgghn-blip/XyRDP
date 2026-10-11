@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-3",
+  "hostname": "rdpfree-4",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T01:55:49Z",
-  "expires_at": "2026-10-11T07:50:49Z",
+  "started_at": "2026-10-11T06:26:45Z",
+  "expires_at": "2026-10-11T12:21:45Z",
   "duration_menit": 355,
-  "run_id": "38103093206",
-  "run_number": "3",
-  "run_url": "https://github.com/bbvghbbvhhgghn-blip/XyRDP/actions/runs/38103093206",
+  "run_id": "38117823003",
+  "run_number": "4",
+  "run_url": "https://github.com/bbvghbbvhhgghn-blip/XyRDP/actions/runs/38117823003",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,16 +42,16 @@
   },
   "grafis": {
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "mode": "software",
+    "dir": "C:\\XyRDP\\grafis",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "debug": "",
     "mesa": "26.2.4",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "adapters": "Microsoft Hyper-V Video",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "mode": "software",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "dir": "C:\\XyRDP\\grafis"
+    "adapters": "Microsoft Hyper-V Video",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat."
   },
   "akses": {
     "mode": "tailscale",
@@ -64,5 +64,5 @@
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-11T01:56:38Z"
+  "stopped_at": "2026-10-11T06:27:19Z"
 }
