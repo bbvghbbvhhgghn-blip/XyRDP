@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T01:41:03Z",
-  "expires_at": "2026-10-11T07:36:03Z",
+  "started_at": "2026-10-11T01:55:49Z",
+  "expires_at": "2026-10-11T07:50:49Z",
   "duration_menit": 355,
-  "run_id": "38102401770",
-  "run_number": "2",
-  "run_url": "https://github.com/bbvghbbvhhgghn-blip/XyRDP/actions/runs/38102401770",
+  "run_id": "38103093206",
+  "run_number": "3",
+  "run_url": "https://github.com/bbvghbbvhhgghn-blip/XyRDP/actions/runs/38103093206",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
     "debug": "",
     "mesa": "26.2.4",
-    "mode": "software",
-    "dir": "C:\\XyRDP\\grafis",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "adapters": "Microsoft Hyper-V Video",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa"
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "mode": "software",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "dir": "C:\\XyRDP\\grafis"
   },
   "akses": {
     "mode": "tailscale",
@@ -64,5 +64,5 @@
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-11T01:41:43Z"
+  "stopped_at": "2026-10-11T01:56:38Z"
 }
